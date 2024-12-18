@@ -1,0 +1,56 @@
+div.popular {
+  width: 70%;
+  height: 800px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  div.pag-1 {
+    width: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    a {
+      img {
+        width: 660px;
+        border-radius: 10px;
+      }
+    }
+  }
+  div.mark {
+    width: 100%;
+    height: 80%;
+    border-color: lightgray;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    div.markSwiper {
+      height: 140px;
+      img {
+        width: 110px;
+        height: 110px;
+        object-fit: contain;
+      }
+      .swiper-slide {
+        border-left: 1px solid lightgray;
+      }
+    }
+  }
+  div.titlee {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 22px;
+    font-family: iranYekan;
+    padding-bottom: 10px;
+    padding-top: 15px;
+  }
+}

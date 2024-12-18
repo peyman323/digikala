@@ -1,0 +1,96 @@
+div.superMarket {
+  width: 105px;
+  height: 32px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  font-family: iranYekan;
+  background-color: #029a49;
+  border-radius: 25px;
+  position: fixed;
+  z-index: 10;
+  bottom: 32px;
+  right: 92%;
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    div.showSuper {
+      width: 460px;
+      height: 360px;
+      padding: 20px 10px;
+      background-color: white;
+      position: absolute;
+      left: 700px;
+      bottom: 200px;
+      border-radius: 25px;
+      box-shadow: 5px 5px 25px lightgray;
+      display: none;
+      transition: 400ms;
+      div.title {
+        width: inherit;
+        height: 30%;
+        position: relative;
+        font-size: 12px;
+        color: black;
+        padding-right: 20px;
+        div.bold {
+          font-weight: 600px;
+          font-size: 18px;
+          padding-bottom: 15px;
+        }
+        div.label {
+          color: rgb(122, 122, 122);
+        }
+        div.close {
+          position: absolute;
+          left: 80%;
+          font-size: 14px;
+          bottom: 35%;
+          color: black;
+        }
+      }
+      div.iteme {
+        width: inherit;
+        height: 70%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        img {
+          width: 205px;
+          height: 250px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+input#seen:checked ~ div.showSuper {
+  display: block;
+}
+input#close:checked ~ div.showSuper {
+  display: none;
+}
+input#seen {
+  display: none;
+}
+input#close {
+  display: none;
+}
+label[for="close"] {
+  font-size: 40px;
+  cursor: pointer;
+  font-weight: 500;
+  padding-right: 15px;
+  color: black;
+  position: absolute;
+  right: 87%;
+}

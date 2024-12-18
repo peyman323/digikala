@@ -1,0 +1,79 @@
+div.gallery {
+    width: 70%;
+    height: 400px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    border-radius: 25px;
+    div.mainGallery {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      font-family: iranYekan;
+      div.digital {
+        width: inherit;
+        height: inherit;
+        border: 1px solid lightgray;
+        div.inDigital {
+          width: inherit;
+          height: 100px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 120px;
+            height: 120px;
+            flex-wrap: wrap;
+            object-fit: contain;
+          }
+        }
+      }
+      div.end , div.center{
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+      }
+      div.start{
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+      }
+    }
+  }
+  div.header,
+   div.your{
+    margin-right: 40px;
+  }
+  div.header {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  div.your {
+    color: rgb(122, 122, 122);
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+  img.pic1 {
+    border-bottom: 1px solid lightgray;
+  }
+  img.pic2 {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+  }
+  img.pic3 {
+    border-left: 1px solid lightgray;
+  }
+  div.link {
+    text-align: center;
+    color: #3ed1e8;
+    font-size: 13px;
+    position: absolute;
+    margin-top: 180px;
+    margin-right: 150px;
+  }
+  

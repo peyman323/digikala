@@ -1,0 +1,63 @@
+div.mainreadings {
+  width: 70%;
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  div.head {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    div.read {
+      width: 85%;
+      height: inherit;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: iranYekan;
+    }
+    div.all {
+      a {
+        width: 15%;
+        height: inherit;
+        color: rgb(0, 183, 255);
+        font-size: 12px;
+        text-decoration: none;
+        font-family: iranYekan;
+      }
+    }
+  }
+  div.images {
+    width: inherit;
+    height: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    div.pic {
+        width: 325px;
+        height: 280px;
+        border-radius: 15px;
+        font-size: 12px;
+        font-weight: 300;
+        border: 1px solid lightgray;
+      img {
+        width: fit-content;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 15px 15px 0px 0px;
+      }
+      div.text{
+        font-size: 12px;
+        font-family: iranYekan;
+        display: flex;
+        padding: 10px 15px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}

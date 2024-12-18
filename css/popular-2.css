@@ -1,0 +1,89 @@
+div.popular2 {
+  width: 70%;
+  height: 405px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  div.title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-family: iranYekan;
+    position: relative;
+    a {
+      div.all {
+        position: absolute;
+        font-size: 16px;
+        font-family: iranYekan;
+        color: #3ed1e8;
+        transform: translate(-520%, -50%);
+      }
+    }
+  }
+  div.popular2Swiper {
+    width: 100%;
+    height: 85%;
+    div.swiper-wrapper {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: start;
+      align-items: center;
+      div.swiper-slide {
+        width: inherit;
+        height: 95px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 15px 0px 0px;
+        box-sizing: border-box;
+        gap: 10px;
+        div.item {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          cursor: pointer;
+          padding: 10px 0px 10px 0px;
+          box-sizing: border-box;
+          div.img {
+            img {
+              width: 80px;
+              height: 80px;
+            }
+          }
+          div.num {
+            font-size: 30px;
+            font-weight: 900;
+            font-family: iranYekan;
+            color: #3ed1e8;
+          }
+          div.text {
+            font-family: iranYekan;
+            font-size: 12px;
+            line-height: 20px;
+            text-align: start;
+            border-bottom: 1px solid lightgray;
+            padding-bottom: 20px;
+            box-sizing: border-box;
+            text-overflow: ellipsis;
+            
+          }
+          div.end {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}

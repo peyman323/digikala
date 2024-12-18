@@ -1,0 +1,70 @@
+div.story-2 {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  div.stoory {
+    width: 100px;
+    height: inherit;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    div.image {
+      width: 100%;
+      height: 60%;
+      padding-bottom: 10px;
+      box-sizing: border-box;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: end;
+      align-items: center;
+      box-sizing: border-box;
+      img {
+        width: 55px;
+        height: 55px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+    div.titlle {
+      width: 100%;
+      height: 40%;
+      color: #23245e;
+      text-align: center;
+      line-height: 20px;
+      font-family: iranYekan;
+      font-size: 11px;
+    }
+    a {
+      width: 100%;
+      height: 60%;
+      padding-bottom: 10px;
+      box-sizing: border-box;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: end;
+      align-items: center;
+      box-sizing: border-box;
+      div.imagee {
+        width: 55px;
+        height: 55px;
+        background-color: #f0f0f1;
+        object-fit: cover;
+        border-radius: 50%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        svg{
+            width: 24px;
+            height: 24px;
+        }
+      }
+    }
+  }
+}

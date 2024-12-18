@@ -1,0 +1,328 @@
+footer {
+  width: 100%;
+  height: 1160px;
+  margin-top: 50px;
+  border-top: 1px solid lightgray;
+  padding-top: 32px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  div.top {
+    width: 90%;
+    height: 1000px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    div.logo {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      div.mainLogo {
+        width: 195px;
+        height: 40px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+      }
+      div.up {
+        width: 140px;
+        height: 40px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        a {
+          text-decoration: none;
+          div.button {
+            font-size: 14px;
+            color: rgb(134, 134, 134);
+            font-family: iranYekan;
+          }
+        }
+      }
+    }
+    div.phone {
+      width: 100%;
+      height: 30px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: start;
+      align-items: center;
+      gap: 15px;
+      margin-top: 12px;
+      div.text {
+        font-size: 12px;
+        color: rgb(46, 45, 45);
+        font-family: iranYekan;
+      }
+    }
+    div.mainOption {
+      width: 100%;
+      height: 105px;
+      margin: 32px 0px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      div.option {
+        width: 320px;
+        height: 80px;
+        padding: 12px 0px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        div.picture {
+          width: 60px;
+          height: 60px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+        }
+        div.text {
+          font-size: 11px;
+          color: rgb(46, 45, 45);
+          font-family: iranYekan;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+    div.mainMore {
+      width: 100%;
+      height: 270px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 32px;
+      div.more {
+        width: 25%;
+        height: inherit;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+        gap: 8px;
+        div.text {
+          height: 30px;
+          font-size: 15px;
+          color: rgb(158, 156, 156);
+          font-family: iranYekan;
+          cursor: pointer;
+        }
+        div.bold {
+          font-size: 15px;
+          color: rgb(15, 15, 15);
+          font-family: iranYekan;
+          font-weight: 600;
+          cursor: pointer;
+        }
+        div.social {
+          width: 100%;
+          height: inherit;
+          display: flex;
+          flex-flow: row nowrap;
+          gap: 40px;
+          div.icon {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: start;
+            direction: ltr;
+            cursor: pointer;
+            svg {
+              color: rgb(158, 156, 156);
+            }
+          }
+        }
+        div.email {
+          margin-top: 32px;
+        }
+        div.your-email {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px;   
+          input[type="email"] {
+            width: 80%;
+            height: 50px;
+            background-color: #f0f0f1;
+            border: unset;
+            border-radius: 7px;
+            padding: 0px 10px;
+            box-sizing: border-box;
+            margin-top: 10px;
+            transition: 600ms;
+            font-family: iranYekan;
+            color: gray;
+            &::placeholder {
+                font-family: iranYekan;
+                font-size: 13px;
+                color: gray;
+            }
+            &:focus {
+                outline: unset;
+                box-shadow: 5px 5px 25 px lightgray;
+            }
+        }
+        div.button{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            padding: 10px 15px;
+            border-radius: 7px;
+            background-color: #e7e7e7;
+            color: white;
+          }
+        }
+      }
+    }
+    div.digikala{
+        width: 100%;
+        padding-bottom: 28px;
+        border-bottom: 1px solid rgb(230, 230, 230);
+    }
+    div.laybel{
+        width: 100%;
+        height: 200px;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px 0px;
+        div.left{
+            width: 70%;
+            height: inherit;
+            font-family: iranYekan;
+            font-size: 14px;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: start;
+            div.text{
+                h1{
+                    color: rgb(66, 66, 66);
+                    margin-bottom: 15px;
+                }
+                p{
+                    color: rgb(138, 138, 138);
+                }
+            }
+            div.link{
+                margin-right: auto;
+                a{
+                    color: rgb(0, 195, 255);
+                    text-decoration: none;
+                }
+            }
+        }
+        div.right{
+            width: 30%;
+            height: inherit;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            div.tag{
+                width: 75px;
+                height: 75px;
+                padding: 16px;
+                border: 1px solid lightgray;
+                border-radius: 10px;
+                img{
+                    width: 75px;
+                    height: 75px;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+    div.about{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+        padding: 32px 0px;
+        font-family: iranYekan;
+        color: rgb(100, 100, 100);
+        font-size: 11px;
+    }
+  }
+  div.bottom {
+    width: 100%;
+    height: 160px;
+    background-color: lightgray;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    div.mark-1{
+        width: inherit;
+        height: 80px;
+        border-bottom: 1px solid rgb(184, 184, 184);
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        div.subMark{
+            width: 170px;
+            height: inherit;
+            border-right: 1px solid rgb(184, 184, 184);
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 20px;
+            svg{
+                width: 125px;
+                height: 20px;
+            }
+        }
+        div.start{
+            border-right: none;
+        }
+    }
+    div.mark-2{
+        width: inherit;
+        height: 80px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        div.subMark{
+            width: 240px;
+            height: inherit;
+            border-right: 1px solid rgb(184, 184, 184);
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 20px;
+            svg{
+                width: 125px;
+                height: 20px;
+            }
+        }
+        div.start{
+            border-right: none;
+        }
+    }
+  }
+}
